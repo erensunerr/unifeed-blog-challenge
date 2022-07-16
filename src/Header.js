@@ -53,10 +53,10 @@ function Header() {
       </div>
 
       <div className="">
-        <button className="px-6 py-3 text-neutral-700">Home</button>
-        <button className="px-6 py-3 text-neutral-700">Features</button>
-        <button className="px-6 py-3 text-neutral-700">Pricing</button>
-        <button className="px-6 py-3 bg-orange-500 text-neutral-800 rounded font-semibold">Subscribe</button>
+        <button className="hover:underline px-6 py-3 text-neutral-700">Home</button>
+        <button className="hover:underline px-6 py-3 text-neutral-700">Features</button>
+        <button className="hover:underline px-6 py-3 text-neutral-700">Pricing</button>
+        <button className="hover:rotate-[360deg] duration-300 transition-transform px-6 py-3 bg-orange-500 text-neutral-800 rounded font-semibold">Subscribe</button>
       </div>
     </nav>
     </header>

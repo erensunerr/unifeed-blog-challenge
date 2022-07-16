@@ -13,11 +13,10 @@ function App() {
     <section className="container mx-auto px-6 py-4 block">
       <Header />
 
-      <section className="py-8">
+      <section className="py-16 sm:py-28 grid grid-cols-1 sm:grid-cols-3 gap-6">
         {
           articles.map((article, i) => <Article {...article} key={i}/>)
         }
-
       </section>
 
       <div className="flex flex-wrap justify-between items-center">
